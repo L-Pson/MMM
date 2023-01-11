@@ -1,0 +1,9 @@
+name: monitor-management
+
+dependencies:
+  - pip
+  - numpy
+  - psutil
+  - pip:
+#    - git+https://github.com/blaze/dask.git#egg=dask[complete]
+    # - screeninfo
